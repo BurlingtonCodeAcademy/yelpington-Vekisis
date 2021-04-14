@@ -1,0 +1,15 @@
+{
+    "id": "gaku-ramen",
+    "name": "Gaku Ramen",
+    "address": "144 Church Street, Burlington Vermont 05401",
+    "phone": "497-3050",
+    "website": "http://gakuramen.com/",
+    "lat": 44.476387,
+  "lon": -73.212470,
+    "hours": "Sunday – Thursday: 11a.m. – 10p.m.",
+    "notes": [
+        "Authentic Japanese cuisine in the Green Mountains.",
+        "Huge bowls of ramen, come hungry!",
+        "Decent pot-stickers, nothing special really."
+    ]
+}

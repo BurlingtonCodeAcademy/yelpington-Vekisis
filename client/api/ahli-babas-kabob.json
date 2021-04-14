@@ -1,0 +1,13 @@
+{
+    "id": "ahli-babas-kabob",
+    "name": "Ahli Baba's Kabob Shop",
+    "address": "163 Main St. Burlington, VT 05401",
+    "phone": "862-5752",
+    "website": "http://places.singleplatform.com/ahli-babas-kabob-shop/menu",
+    "lat": 44.475815,
+    "lon": -73.212780,
+    "hours": "9AM-3AM Everyday",
+    "notes": [
+      "Nice little shop that serves delicious street food."
+    ]
+  }

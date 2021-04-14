@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body{
+  background-color: lightgray;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Container for the leaflet map to align with the other CSS */
+#mapContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  text-align: center;
+  width: 30vw;
+  height: 45vh;
+  padding: 4px;
+  border-radius: 5px;
+  border: black 5px solid;
+  background-image: linear-gradient(to bottom left, red, white);
+  box-shadow: 10px 10px 5px black;
 }
-
-.App-link {
-  color: #61dafb;
+/* Font size for the restaurant parameters */
+h1{
+  font-size: 16px;
 }
+/* Yelpington title text */
+#yelp{
+  font-size: 40px;
+  justify-content: center;
+  text-align: center;
+}
+/* A small amount of space to not  */
+#map {
+  border-radius: 5px;
+}
+/* The overall container that manipulates everything below the title text */
+.app{
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 80vw;
+  justify-content: space-evenly;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
